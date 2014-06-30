@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB7E0729195AF4EB00570E39 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7E0728195AF4EB00570E39 /* main.swift */; };
+		AB7E072D195AF4EB00570E39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7E072C195AF4EB00570E39 /* AppDelegate.swift */; };
+		AB7E072F195AF4EB00570E39 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB7E072E195AF4EB00570E39 /* Images.xcassets */; };
+		AB7E0732195AF4EB00570E39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7E0730195AF4EB00570E39 /* Main.storyboard */; };
+		AB7E073E195AF4EB00570E39 /* PopWindowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7E073D195AF4EB00570E39 /* PopWindowTests.swift */; };
+		ABDBEA9B195C552E000F4142 /* MyWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDBEA9A195C552E000F4142 /* MyWindowController.swift */; };
+		ABDBEA9D195C7BDC000F4142 /* MidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDBEA9C195C7BDC000F4142 /* MidViewController.swift */; };
+		ABDBEA9F195C7DD6000F4142 /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDBEA9E195C7DD6000F4142 /* SplitViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB7E0738195AF4EB00570E39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB7E071B195AF4EB00570E39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB7E0722195AF4EB00570E39;
+			remoteInfo = PopWindow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB7E0723195AF4EB00570E39 /* PopWindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB7E0727195AF4EB00570E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB7E0728195AF4EB00570E39 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AB7E072C195AF4EB00570E39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB7E072E195AF4EB00570E39 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AB7E0731195AF4EB00570E39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB7E0737195AF4EB00570E39 /* PopWindowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopWindowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB7E073C195AF4EB00570E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB7E073D195AF4EB00570E39 /* PopWindowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopWindowTests.swift; sourceTree = "<group>"; };
+		ABDBEA9A195C552E000F4142 /* MyWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyWindowController.swift; sourceTree = "<group>"; };
+		ABDBEA9C195C7BDC000F4142 /* MidViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidViewController.swift; sourceTree = "<group>"; };
+		ABDBEA9E195C7DD6000F4142 /* SplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB7E0720195AF4EB00570E39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB7E0734195AF4EB00570E39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB7E071A195AF4EB00570E39 = {
+			isa = PBXGroup;
+			children = (
+				AB7E0725195AF4EB00570E39 /* PopWindow */,
+				AB7E073A195AF4EB00570E39 /* PopWindowTests */,
+				AB7E0724195AF4EB00570E39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB7E0724195AF4EB00570E39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB7E0723195AF4EB00570E39 /* PopWindow.app */,
+				AB7E0737195AF4EB00570E39 /* PopWindowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB7E0725195AF4EB00570E39 /* PopWindow */ = {
+			isa = PBXGroup;
+			children = (
+				ABDBEA9C195C7BDC000F4142 /* MidViewController.swift */,
+				ABDBEA9E195C7DD6000F4142 /* SplitViewController.swift */,
+				ABDBEA9A195C552E000F4142 /* MyWindowController.swift */,
+				AB7E072C195AF4EB00570E39 /* AppDelegate.swift */,
+				AB7E072E195AF4EB00570E39 /* Images.xcassets */,
+				AB7E0730195AF4EB00570E39 /* Main.storyboard */,
+				AB7E0726195AF4EB00570E39 /* Supporting Files */,
+			);
+			path = PopWindow;
+			sourceTree = "<group>";
+		};
+		AB7E0726195AF4EB00570E39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB7E0727195AF4EB00570E39 /* Info.plist */,
+				AB7E0728195AF4EB00570E39 /* main.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB7E073A195AF4EB00570E39 /* PopWindowTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB7E073D195AF4EB00570E39 /* PopWindowTests.swift */,
+				AB7E073B195AF4EB00570E39 /* Supporting Files */,
+			);
+			path = PopWindowTests;
+			sourceTree = "<group>";
+		};
+		AB7E073B195AF4EB00570E39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB7E073C195AF4EB00570E39 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB7E0722195AF4EB00570E39 /* PopWindow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB7E0741195AF4EB00570E39 /* Build configuration list for PBXNativeTarget "PopWindow" */;
+			buildPhases = (
+				AB7E071F195AF4EB00570E39 /* Sources */,
+				AB7E0720195AF4EB00570E39 /* Frameworks */,
+				AB7E0721195AF4EB00570E39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopWindow;
+			productName = PopWindow;
+			productReference = AB7E0723195AF4EB00570E39 /* PopWindow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB7E0736195AF4EB00570E39 /* PopWindowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB7E0744195AF4EB00570E39 /* Build configuration list for PBXNativeTarget "PopWindowTests" */;
+			buildPhases = (
+				AB7E0733195AF4EB00570E39 /* Sources */,
+				AB7E0734195AF4EB00570E39 /* Frameworks */,
+				AB7E0735195AF4EB00570E39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB7E0739195AF4EB00570E39 /* PBXTargetDependency */,
+			);
+			name = PopWindowTests;
+			productName = PopWindowTests;
+			productReference = AB7E0737195AF4EB00570E39 /* PopWindowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB7E071B195AF4EB00570E39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Teo Sartori";
+				TargetAttributes = {
+					AB7E0722195AF4EB00570E39 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					AB7E0736195AF4EB00570E39 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = AB7E0722195AF4EB00570E39;
+					};
+				};
+			};
+			buildConfigurationList = AB7E071E195AF4EB00570E39 /* Build configuration list for PBXProject "PopWindow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB7E071A195AF4EB00570E39;
+			productRefGroup = AB7E0724195AF4EB00570E39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB7E0722195AF4EB00570E39 /* PopWindow */,
+				AB7E0736195AF4EB00570E39 /* PopWindowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB7E0721195AF4EB00570E39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7E072F195AF4EB00570E39 /* Images.xcassets in Resources */,
+				AB7E0732195AF4EB00570E39 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB7E0735195AF4EB00570E39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB7E071F195AF4EB00570E39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDBEA9B195C552E000F4142 /* MyWindowController.swift in Sources */,
+				ABDBEA9F195C7DD6000F4142 /* SplitViewController.swift in Sources */,
+				ABDBEA9D195C7BDC000F4142 /* MidViewController.swift in Sources */,
+				AB7E072D195AF4EB00570E39 /* AppDelegate.swift in Sources */,
+				AB7E0729195AF4EB00570E39 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB7E0733195AF4EB00570E39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7E073E195AF4EB00570E39 /* PopWindowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB7E0739195AF4EB00570E39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB7E0722195AF4EB00570E39 /* PopWindow */;
+			targetProxy = AB7E0738195AF4EB00570E39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB7E0730195AF4EB00570E39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB7E0731195AF4EB00570E39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB7E073F195AF4EB00570E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB7E0740195AF4EB00570E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AB7E0742195AF4EB00570E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PopWindow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB7E0743195AF4EB00570E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PopWindow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AB7E0745195AF4EB00570E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PopWindow.app/Contents/MacOS/PopWindow";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PopWindowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		AB7E0746195AF4EB00570E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PopWindow.app/Contents/MacOS/PopWindow";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PopWindowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB7E071E195AF4EB00570E39 /* Build configuration list for PBXProject "PopWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB7E073F195AF4EB00570E39 /* Debug */,
+				AB7E0740195AF4EB00570E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB7E0741195AF4EB00570E39 /* Build configuration list for PBXNativeTarget "PopWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB7E0742195AF4EB00570E39 /* Debug */,
+				AB7E0743195AF4EB00570E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB7E0744195AF4EB00570E39 /* Build configuration list for PBXNativeTarget "PopWindowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB7E0745195AF4EB00570E39 /* Debug */,
+				AB7E0746195AF4EB00570E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB7E071B195AF4EB00570E39 /* Project object */;
+}
