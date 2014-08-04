@@ -8,12 +8,17 @@
 
 import Cocoa
 import QuartzCore
+import CoreMedia
+import AVFoundation
 
 class MidViewController: NSViewController {
 
-    @IBOutlet var midLabel: NSTextField
+    @IBOutlet var midLabel: NSTextField!
+
+    var theEngine:AVAudioEngine
     
-    init(coder: NSCoder!)  {
+    required init(coder: NSCoder!)  {
+        theEngine = AVAudioEngine()
         super.init(coder: coder)
     }
     
@@ -21,12 +26,6 @@ class MidViewController: NSViewController {
         let splitController = parentViewController as? SplitViewController
         splitController?.togglePanel(sender.selectedSegment)
         
-        // An example of animating the stringValue of a TextField
-//        let kfa = CAKeyframeAnimation()
-//        kfa.values = ["Teo", "Linda", "Karin", "Nugga"]
-//        
-//        midLabel.setAnimations(["stringValue":kfa])
-//        midLabel.animator().stringValue = "Familien"
     }
     
 }

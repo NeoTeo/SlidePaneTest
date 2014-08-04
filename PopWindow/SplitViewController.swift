@@ -15,7 +15,8 @@ class SplitViewController: NSSplitViewController {
             
             // Anchor the appropriate window edge before letting the splitview animate.
             let anchor: NSLayoutAttribute = (panelID == 0) ? .Trailing : .Leading
-            self.view.window.setAnchorAttribute(anchor, forOrientation: .Horizontal)
+
+            self.view.window?.setAnchorAttribute(anchor, forOrientation: .Horizontal)
             
             splitViewItem.animator().collapsed = !splitViewItem.collapsed
         }
