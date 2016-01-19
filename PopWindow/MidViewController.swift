@@ -17,7 +17,7 @@ class MidViewController: NSViewController {
 
     var theEngine:AVAudioEngine
     
-    required init(coder: NSCoder!)  {
+    required init?(coder: NSCoder)  {
         theEngine = AVAudioEngine()
         super.init(coder: coder)
     }

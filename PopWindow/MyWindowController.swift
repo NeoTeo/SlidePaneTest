@@ -10,7 +10,7 @@ import Cocoa
 
 class MyWindowController: NSWindowController {
 
-    required init(coder: NSCoder!)  {
+    required init?(coder: NSCoder)  {
         super.init(coder: coder)
     }
         

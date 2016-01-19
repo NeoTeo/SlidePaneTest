@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="6185.7" systemVersion="14A283o" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
-        <deployment defaultVersion="101000" identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6185.7"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9531"/>
     </dependencies>
     <scenes>
-        <!--Window-->
+        <!--Window Controller-->
         <scene sceneID="R2V-B0-nI4">
             <objects>
                 <windowController id="B8D-0N-5wS" customClass="MyWindowController" customModule="PopWindow" customModuleProvider="target" sceneMemberID="viewController">
@@ -31,19 +30,19 @@
         <scene sceneID="P0o-4M-MeC">
             <objects>
                 <splitViewController id="mLI-5R-oSn" customClass="SplitViewController" customModule="PopWindow" customModuleProvider="target" sceneMemberID="viewController">
-                    <splitView key="view" dividerStyle="thin" vertical="YES" id="hk0-G7-h3f">
-                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </splitView>
                     <splitViewItems>
                         <splitViewItem canCollapse="YES" collapsed="YES" id="igl-2g-lBO"/>
                         <splitViewItem holdingPriority="251" id="lIL-XX-TzK"/>
                         <splitViewItem canCollapse="YES" collapsed="YES" id="kF4-kI-5bY"/>
                     </splitViewItems>
+                    <splitView key="splitView" dividerStyle="thin" vertical="YES" id="hk0-G7-h3f">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </splitView>
                     <connections>
-                        <segue destination="jyC-1v-OIi" kind="relationship" relationship="splitItem" id="CEx-cY-AIU"/>
-                        <segue destination="Kep-59-2Ro" kind="relationship" relationship="splitItem" id="NtC-fn-X8y"/>
-                        <segue destination="svg-Gw-umV" kind="relationship" relationship="splitItem" id="PrF-qF-9b2"/>
+                        <segue destination="jyC-1v-OIi" kind="relationship" relationship="splitItems" id="mHu-Hf-HEh"/>
+                        <segue destination="Kep-59-2Ro" kind="relationship" relationship="splitItems" id="EVS-3A-lJf"/>
+                        <segue destination="svg-Gw-umV" kind="relationship" relationship="splitItems" id="VEh-nZ-cTA"/>
                     </connections>
                 </splitViewController>
                 <customObject id="OLq-go-HOa" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
@@ -54,11 +53,11 @@
         <scene sceneID="hOH-tV-wWi">
             <objects>
                 <viewController id="svg-Gw-umV" sceneMemberID="viewController">
-                    <view key="view" id="FGY-yZ-jB4">
+                    <view key="view" misplaced="YES" id="FGY-yZ-jB4">
                         <rect key="frame" x="0.0" y="0.0" width="280" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <textField horizontalHuggingPriority="750" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="oxU-Hv-gEe">
+                            <textField horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oxU-Hv-gEe">
                                 <rect key="frame" x="131" y="186" width="28" height="17"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Info" id="M8Q-Ou-yEG">
                                     <font key="font" metaFont="system"/>
@@ -82,11 +81,11 @@
         <scene sceneID="bvy-yl-2AO">
             <objects>
                 <viewController id="jyC-1v-OIi" sceneMemberID="viewController">
-                    <view key="view" id="GRF-lS-gpd">
+                    <view key="view" misplaced="YES" id="GRF-lS-gpd">
                         <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <textField horizontalHuggingPriority="750" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="hYR-uM-r9W">
+                            <textField horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hYR-uM-r9W">
                                 <rect key="frame" x="131" y="163" width="48" height="17"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Playlist" id="UKv-R7-S6O">
                                     <font key="font" metaFont="system"/>

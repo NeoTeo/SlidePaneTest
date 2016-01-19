@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB7E0729195AF4EB00570E39 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7E0728195AF4EB00570E39 /* main.swift */; };
 		AB7E072D195AF4EB00570E39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7E072C195AF4EB00570E39 /* AppDelegate.swift */; };
 		AB7E072F195AF4EB00570E39 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB7E072E195AF4EB00570E39 /* Images.xcassets */; };
 		AB7E0732195AF4EB00570E39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7E0730195AF4EB00570E39 /* Main.storyboard */; };
@@ -30,7 +29,6 @@
 /* Begin PBXFileReference section */
 		AB7E0723195AF4EB00570E39 /* PopWindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB7E0727195AF4EB00570E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AB7E0728195AF4EB00570E39 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AB7E072C195AF4EB00570E39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB7E072E195AF4EB00570E39 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AB7E0731195AF4EB00570E39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -96,7 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				AB7E0727195AF4EB00570E39 /* Info.plist */,
-				AB7E0728195AF4EB00570E39 /* main.swift */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -162,7 +159,8 @@
 		AB7E071B195AF4EB00570E39 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0600;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Teo Sartori";
 				TargetAttributes = {
 					AB7E0722195AF4EB00570E39 = {
@@ -221,7 +219,6 @@
 				ABDBEA9F195C7DD6000F4142 /* SplitViewController.swift in Sources */,
 				ABDBEA9D195C7BDC000F4142 /* MidViewController.swift in Sources */,
 				AB7E072D195AF4EB00570E39 /* AppDelegate.swift in Sources */,
-				AB7E0729195AF4EB00570E39 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +272,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -339,6 +337,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = PopWindow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TerminalGlow.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -350,6 +349,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = PopWindow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TerminalGlow.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -370,6 +370,7 @@
 				INFOPLIST_FILE = PopWindowTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "TerminalGlow.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
@@ -387,6 +388,7 @@
 				INFOPLIST_FILE = PopWindowTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "TerminalGlow.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};

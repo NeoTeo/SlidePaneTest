@@ -11,15 +11,15 @@ import Cocoa
 class SplitViewController: NSSplitViewController {
 
     func togglePanel(panelID: Int) {
-        if let splitViewItem = self.splitViewItems[panelID] as? NSSplitViewItem {
+        let splitViewItem = self.splitViewItems[panelID]
             
-            // Anchor the appropriate window edge before letting the splitview animate.
-            let anchor: NSLayoutAttribute = (panelID == 0) ? .Trailing : .Leading
+        // Anchor the appropriate window edge before letting the splitview animate.
+        let anchor: NSLayoutAttribute = (panelID == 0) ? .Trailing : .Leading
 
-            self.view.window?.setAnchorAttribute(anchor, forOrientation: .Horizontal)
-            
-            splitViewItem.animator().collapsed = !splitViewItem.collapsed
-        }
+        self.view.window?.setAnchorAttribute(anchor, forOrientation: .Horizontal)
+        
+        splitViewItem.animator().collapsed = !splitViewItem.collapsed
+        
     }
     
 }
