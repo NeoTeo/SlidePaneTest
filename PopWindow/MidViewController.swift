@@ -15,10 +15,10 @@ class MidViewController: NSViewController {
 
     @IBOutlet var midLabel: NSTextField!
 
-    var theEngine:AVAudioEngine
+    //var theEngine:AVAudioEngine
     
     required init?(coder: NSCoder)  {
-        theEngine = AVAudioEngine()
+        //theEngine = AVAudioEngine()
         super.init(coder: coder)
     }
     
