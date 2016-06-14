@@ -22,8 +22,8 @@ class MidViewController: NSViewController {
         super.init(coder: coder)
     }
     
-    @IBAction func segmentAction(sender: NSSegmentedControl) {
-        let splitController = parentViewController as? SplitViewController
+    @IBAction func segmentAction(_ sender: NSSegmentedControl) {
+        let splitController = parent as? SplitViewController
         splitController?.togglePanel(sender.selectedSegment)
         
     }
